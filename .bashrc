@@ -22,6 +22,7 @@ alias mw="~/.config/mutt/mutt-wizard.sh"
 alias muttwizard="~/.config/mutt/mutt-wizard.sh"
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
+alias eshell="nano /etc/passwd" # edits user shells
 
 # Some aliases
 alias e="$EDITOR"
