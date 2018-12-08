@@ -39,7 +39,7 @@ alias ref="shortcuts && source ~/.bashrc" # Refresh shortcuts manually and reloa
 alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 
 # Adding color
-alias ls='ls -hN --color=auto --group-directories-first'
+alias ls='ls -h --color=auto --group-directories-first'
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias ccat="highlight --out-format=ansi" # Color cat - print file with syntax highlighting.
@@ -48,6 +48,10 @@ alias ccat="highlight --out-format=ansi" # Color cat - print file with syntax hi
 alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x -f bestaudio/best" # Download only audio
 alias YT="youtube-viewer"
+alias ethspeed="speedometer -r enp0s25"
+alias wifispeed="speedometer -r wlp3s0"
+alias starwars="telnet towel.blinkenlights.nl"
+
 
 shdl() { curl -O $(curl -s http://sci-hub.tw/"$@" | grep location.href | grep -o http.*pdf) ;}
 vf() { $EDITOR $(fzf) ;}
