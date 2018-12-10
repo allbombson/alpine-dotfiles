@@ -257,3 +257,5 @@ vnoremap L >gv
 vnoremap H <gv
 
 map <enter><enter> yi[:e <c-r>"<cr>
+
+set term=builtin_ansi
